@@ -53,7 +53,53 @@ PrefabInstance:
       value: Boat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -7296113118369732711, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+    - {fileID: 7504787639733062195, guid: 38473f240921016469783e7fdf5a9003, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3384908425513456174}
+    - targetCorrespondingSourceObject: {fileID: 4131359070880325616, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4640868094544133820}
   m_SourcePrefab: {fileID: 100100000, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+--- !u!1 &850855759946760031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4131359070880325616, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+  m_PrefabInstance: {fileID: 3646598352743719087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4640868094544133820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850855759946760031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3eccd4572916546a79ae3e419448d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 180
+--- !u!1 &4492965359109627390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38473f240921016469783e7fdf5a9003, type: 3}
+  m_PrefabInstance: {fileID: 3646598352743719087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3384908425513456174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492965359109627390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cdd8ad6ddcd8f145a35f9da6d517404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sway: 0
+  swayAmplitude: 1
+  swayFrequency: 0.1
